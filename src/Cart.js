@@ -1,6 +1,9 @@
 import React from 'react'
 
 function Cart({ pet,addTocart,cardItems}) {
+    console.log(pet);
+    console.log(addTocart);
+    console.log(cardItems);
     return (
 
         <div className="col-lg-4">

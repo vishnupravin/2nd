@@ -49,6 +49,7 @@ function App() {
     setcardItems([...cardItems, pet]);
   }
   let removeFromcart = (pet) => {
+    console.log(pet);
     const indexVal = cardItems.findIndex(obj => obj.id === pet.id);
     cardItems.splice(indexVal, 1);
     setcardItems ([...cardItems])
